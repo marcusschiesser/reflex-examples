@@ -5,7 +5,7 @@ from reflex.vars import BaseVar, Var
 
 
 class QrScanner(NoSSRComponent):
-    library = "@yudiel/react-qr-scanner"
+    library = "@yudiel/react-qr-scanner@1.2.10"
     tag = "QrScanner"
 
     # The delay between scans in milliseconds.
